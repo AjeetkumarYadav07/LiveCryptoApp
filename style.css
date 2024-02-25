@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif , "poppines";
+}
+/* Adding fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+   
+    background-color: #26282d;
+    color: white;  
+}
+.container{
+    width: 100%;
+    height: 15vh;
+    background-color: #3d4863; 
+    /* background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center; */
+   
+    padding: 0 7%;
+    color: #fff;
+    font-weight: 700;
+}
+.nav__items{
+
+}
+.nav_top{
+    display: flex;
+     padding-top: 5px;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+    border-bottom: solid 1px ;
+}
+.top_navitem{
+    display: flex;
+     column-gap: 3rem;
+}
+
+.bottom_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_navlist{
+    display: flex;
+    width: 70%;
+    column-gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.bottom_navlist  li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.bottom_navlist li  :hover{
+    border-bottom: solid 2px turquoise;
+    color: turquoise;
+}
+
+.btn  { 
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  border: 1px solid #fff;
+  margin-right: 20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+
+
+/* <!-- ========= SECOND PART OF PAGE ====== --> */
+.main_container{
+    display: flex;
+    justify-content:space-between ;
+    column-gap: 10vh;
+    margin-top: 50px;
+    
+}
+.content {
+    width: 55%;
+    padding: 68px 19px 3px 126px;
+
+}
+.content h1{
+  font-size: 60px;
+  margin-bottom: 15px;
+  width: 70%;
+}
+
+.content h1 span{
+    color: #25c099;
+}
+.content p  {
+ font-size: 20px;
+ margin-bottom: 15px;
+}
+
+.content a{
+   text-decoration: none;
+   list-style: none;
+   color: white;
+   margin-top: 10px;
+}
+.explore_btn{
+    padding: 7px ;
+    border: solid 1px turquoise;
+    background-color: turquoise;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.explore_btn:hover{
+    background-color: #26282d;
+}
+
+
+
+
+ /* ==== laptop  section ==== */
+.laptop_img  {
+    width: 55%;
+ 
+}
+.laptop_img img {
+   width: 800px;
+}
+
+
+
+
+
+
+/* <!-- ======= live dolor and price section ====== --> */
+
+.coin-list{
+    
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: turquoise;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.coin img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.coin h3{
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+ /* ====== FOR Dark mode ===== */
+
+ /* .explore_btn {
+    padding: 7px ;
+    border: solid 1px rgb(3, 27, 125);
+    background-color: rgb(64, 85, 224);
+    border-radius: 20px;
+    font-weight: 700;  
+ }
+
+ .explore_btn:hover{
+    background-color: rgb(64, 85, 224);
+ } */
