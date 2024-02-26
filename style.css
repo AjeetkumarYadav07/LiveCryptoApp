@@ -25,9 +25,8 @@ body{
     color: #fff;
     font-weight: 700;
 }
-.nav__items{
 
-}
+
 .nav_top{
     display: flex;
      padding-top: 5px;
@@ -172,6 +171,20 @@ body{
 
  /* ====== FOR Dark mode ===== */
 
+  .dark {
+   
+    
+    background-color: #26282d;
+    color: white;  
+}
+
+  }
+
+
+
+
+
+
  /* .explore_btn {
     padding: 7px ;
     border: solid 1px rgb(3, 27, 125);
@@ -183,3 +196,5 @@ body{
  .explore_btn:hover{
     background-color: rgb(64, 85, 224);
  } */
+
+
